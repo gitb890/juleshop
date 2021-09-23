@@ -1,0 +1,14 @@
+server:
+  port: 8001
+
+
+spring:
+  application:
+    name: jule-provider-service
+  datasource:
+    driver-class-name: org.gjt.mm.mysql.Driver
+    druid:
+      url: jdbc:mysql://localhost:3306/jule?useUnicode=true&CharacterEncoding=utf-8&useSSL=false
+      db-type: com.alibaba.druid.pool.DruidDataSource
+      username: root
+      password: 12qwaszx
